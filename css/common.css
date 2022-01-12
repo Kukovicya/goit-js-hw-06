@@ -22,3 +22,10 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.lox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 150px;
+  background: linear-gradient(blue, pink);
+}
