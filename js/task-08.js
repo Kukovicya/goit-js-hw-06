@@ -13,7 +13,7 @@ function handleSubmit(event) {
   } = event.currentTarget;
 
   if (email.value === "" || password.value === "") {
-    alert("Bсе поля должны быть заполнены!");
+    return alert("Bсе поля должны быть заполнены!");
   }
 
   lox.email = email.value;
